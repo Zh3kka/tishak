@@ -13,6 +13,7 @@ const Footer = () => {
           <a
             href="mailto:contact@danilatishkevich.com"
             className="text-gray-600"
+            aria-label="email"
           >
             contact@danilatishkevich.com
           </a>
@@ -21,18 +22,21 @@ const Footer = () => {
           <a
             href="https://youtube.com/@danilatishkevich?si=-9_BUd4MD9sUcdKC"
             className="text-gray-600 hover:text-black"
+            aria-label="Youtube"
           >
             <FaYoutube size={24} />
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100086759268723&mibextid=LQQJ4d"
             className="text-gray-600 hover:text-black"
+            aria-label="Facebook"
           >
             <FaFacebook size={24} />
           </a>
           <a
             href="https://www.instagram.com/tishkevich_productions"
             className="text-gray-600 hover:text-black"
+            aria-label="Instagram"
           >
             <FaInstagram size={24} />
           </a>
