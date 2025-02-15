@@ -15,6 +15,7 @@ const VideoItem = ({ src }: { src: any }) => {
         onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
         onMouseLeave={(e) => (e.target as HTMLVideoElement).pause()}
         loop
+        controls={false}
       >
         <source src={src} type="video/mp4" />
       </video>
