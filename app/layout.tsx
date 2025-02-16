@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { ToastContainer } from "react-toastify";
 import "react-toastify/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 const fontSans = FontSans({
   subsets: ["latin"],

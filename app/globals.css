@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import '~react-toastify/ReactToastify.min.css';
-  
+@import "~react-toastify/ReactToastify.min.css";
+
 /* Скрыть полосу прокрутки для браузеров с поддержкой */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -11,4 +11,17 @@
 .scrollbar-hide {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
